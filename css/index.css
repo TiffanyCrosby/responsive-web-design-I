@@ -464,8 +464,14 @@ ul {
     flex-direction: column;
     align-items: center;
   }
+
   .services-pg-content section {
     width: 100%;
-    border: none;
+  }
+
+  .services-page section {
+    padding: 2% 7% 2%;
+    border-left: none;
+    border-right: none;
   }
 }
