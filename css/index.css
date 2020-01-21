@@ -167,6 +167,7 @@ html {
 }
 
 * body {
+    font-size: 2rem;
     margin: 5% 5% 10%;
 }
 
@@ -237,6 +238,11 @@ nav a {
     border-top: solid;
 }
 
+h3{
+    font:2.4rem;
+    text-emphasis: emphasis 500px; 
+}
+
 .middle-img {
     background-image: url("../img/mid-page-accent.jpg");
     background-color: #cccccc;
@@ -252,9 +258,14 @@ nav a {
     display: flex;
     justify-content: space-around;
     width: 100%;
-    padding: 4% 2% 4% 0;
+    padding: 4% 0;
     border-bottom: solid;
 }
+
+.hp-content3 section{
+    margin-right: 20px;
+}
+
 
 footer {
     margin-top: 4%;
@@ -277,11 +288,11 @@ footer {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    margin: 4% 0;
+    margin: 2% 0;
 }
 
 .services-header {
-    padding: 4% 0;
+    padding: 2% 0 4%;
     border-bottom: solid;
 }
 
